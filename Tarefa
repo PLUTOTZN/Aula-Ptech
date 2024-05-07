@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo à Europa!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Europa!</h1>
+    <p>Descubra a riqueza cultural, histórica e natural que a Europa tem a oferecer.</p>
+  </header>
+  
+  <section class="destinos">
+    <h2>Destinos Populares</h2>
+    
+    <div class="destino">
+      <h3>Paris, França</h3>
+      <img src="paris.jpg" alt="Paris">
+      <p>Explore a Torre Eiffel, o Louvre e a charmosa Montmartre.</p>
+      <p>Saboreie a culinária francesa em cafés pitorescos.</p>
+    </div>
+    
+    <div class="destino">
+      <h3>Roma, Itália</h3>
+      <img src="roma.jpg" alt="Roma">
+      <p>Visite o Coliseu, o Fórum Romano e o Vaticano.</p>
+      <p>Delicie-se com a autêntica pizza e massas italianas.</p>
+    </div>
+    
+    <div class="destino">
+      <h3>Barcelona, Espanha</h3>
+      <img src="barcelona.jpg" alt="Barcelona">
+      <p>Maravilhe-se com a arquitetura de Gaudí, incluindo a Sagrada Família e o Parque Güell.</p>
+      <p>Desfrute da vida noturna animada e das praias ensolaradas.</p>
+    </div>
+  </section>
+  
+  <section class="tesouros">
+    <h2>Tesouros Escondidos</h2>
+    
+    <div class="destino">
+      <h3>Cinque Terre, Itália</h3>
+      <img src="cinque_terre.jpg" alt="Cinque Terre">
+      <p>Descubra as pitorescas aldeias à beira-mar e trilhas panorâmicas.</p>
+    </div>
+    
+    <div class="destino">
+      <h3>Hallstatt, Áustria</h3>
+      <img src="hallstatt.jpg" alt="Hallstatt">
+      <p>Encante-se com a beleza deste charmoso vilarejo alpino à beira do lago.</p>
+    </div>
+    
+    <div class="destino">
+      <h3>Porto, Portugal</h3>
+      <img src="porto.jpg" alt="Porto">
+      <p>Explore as ruas estreitas e as adegas de vinho do Porto nesta cidade histórica.</p>
+    </div>
+  </section>
+  
+  <section class="planeje">
+    <h2>Planifique sua Viagem</h2>
+    
+    <div>
+      <h3>Dicas de Viagem</h3>
+      <ul>
+        <li>Verifique os requisitos de visto e saúde antes de viajar.</li>
+        <li>Reserve seus bilhetes com antecedência para evitar filas.</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h3>Guia de Hospedagem</h3>
+      <p>Encontre hotéis, albergues e casas de hóspedes que atendam ao seu orçamento e preferências.</p>
+    </div>
+    
+    <div>
+      <h3>Transporte na Europa</h3>
+      <p>Utilize o conveniente sistema ferroviário europeu para viajar entre os destinos.</p>
+      <p>Considere alugar um carro para explorar áreas rurais e menos turísticas.</p>
+    </div>
+  </section>
+  
+  <footer>
+    <p>Pronto para a Sua Próxima Aventura? Comece a planejar sua viagem à Europa hoje mesmo e prepare-se para criar memórias inesquecíveis neste continente diversificado e fascinante!</p>
+  </footer>
+</body>
+</html>
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.destinos {
+  padding: 20px;
+}
+
+.destino {
+  margin-bottom: 20px;
+}
+
+.destino h3 {
+  color: #333;
+}
+
+.destino img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tesouros {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.planeje {
+  padding: 20px;
+}
+
+.planeje h3 {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
